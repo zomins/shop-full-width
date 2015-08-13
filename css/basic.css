@@ -1,0 +1,9 @@
+body{
+ font-size:13px;
+ line-height: 1.3em;
+ font-family: 'arial', sans-serif; 
+}
+a:link , a:visited { color:#ffffff; text-decoration:none;}
+a:hover , a:focus { color:#cc3333; text-decoration:none;}
+img{ border:0 none;}
+h2{ font-family: 'Oswald', sans-serif; }

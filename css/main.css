@@ -1,0 +1,86 @@
+#top { border-bottom:1px solid #e0e0e0; background-color:#ffffff; height: 95px;}                  
+	#top .redbox{ height:90px; background-color:#cd3737;  }
+	#top .redbox .xWrapper { height:60px;}
+		.redbox	h2 { font-size:28px; color:#ffffff; text-shadow:0 1px 0 rgba(0, 0, 0, 0.25); width:925px;
+					height:60px; line-height:60px; float:left; text-transform: uppercase;}
+		.redbox	#homeicon { float:left; width:35px;}
+		.redbox	#homeicon a { display:block; width:35px; height:35px; background-image: url("../img/homeicon.png"); 
+							  margin: 25px 0 0; background-repeat: no-repeat; font-size:0;}
+		.redbox #navilist { clear:both; }
+		.redbox #navilist a { color:#ffffff; text-shadow:0 1px 0 rgba(0, 0, 0, 0.25); font-size:12px;}
+		.redbox #navilist img { vertical-align:baseline;}
+		
+	.menu_bar { width:918px; margin:40px auto 35px; padding:0 20px; height:63px; line-height:63px;
+					background-color:#ffffff; border:1px solid #eaeaea;}
+	#shopMenu p { float:left; width:190px; }
+		#genre{float:left; width:385px; margin-right: 200px;}
+		#genre li{ display:inline-block;}
+		#genre li a{ display:block; padding:0 21px 0 0; color:black; font-size:14px; }
+		  a.bg { background: url("../img/six_dot.png") no-repeat 75% 50%;}
+		  a.bg.a2 {background-position:85% 50%;}
+		  a.bg.a3 {background-position:80% 50%;}
+		  a.bg.a4, a.bg.a5 {background-position:87% 50%;}
+		p select { width:109px; height:25px; line-height: 23px; color:#7e7e7f;
+				 border:1px solid #eaeaea; border-radius:0; padding-left: 7px; margin-left:15px;
+				 background:white url("../img/arrow.png") no-repeat 95% 50%;
+				 -webkit-appearance: none;
+				 -moz-appearance: none;
+				 -o-appearance: none;
+				 -ms-appearance: none;
+				 appearance: none;}
+		p#display{ text-align: right; width:143px;} 
+		p#display a{ display: inline-block; padding:0 0 0 14px;}
+		p#display a img{ vertical-align: middle; } 
+
+	/* item shop 공통 */
+	.shop a { color:#282828; text-decoration: none;}
+	.shop .item_title {font-weight: bold; margin:12px 15px 0; font-size:16px;}
+	.shop em {font-weight: normal;padding-left: 8px; font-size:14px;}
+	.shop p{  margin:15px 0 0 15px; font-size:15px;}
+	.shop p span { display: block; float:left; width:45px; margin-top:5px; }
+	.shop .sale { position:absolute; left:0; top:0; width:50px; height:50px;
+				  line-height:50px; color:white; text-align:center; font-size:12px; font-weight: 500;
+				  background-color:#cc3333; opacity: 0.8; 
+				  behavior: url("pie/PIE.htc"); border-radius:25px; }
+	.shop .star_mark { margin:9px 15px 0;}
+	.shop .price { font-size:18px; font-weight: bold; margin-right:52px;}
+	.shop .line-through { text-decoration: line-through;}
+	.shop .discount { margin-left:8px; width:38px; padding:0 3px;background-color:#cc3333; color:white; font-size:15px; }
+	.shop.square .desc { font-size:13px; margin-top:9px;}
+	.shop.square .addToCart { width:80px; height:26px; margin:0 0 0 20px; border-radius:5px; vertical-align: middle;
+		background-color: #1e1e20; color:white; font-size:10px; line-height:26px; text-align:center;}
+
+
+	/* item shop_square */
+	.shop.square ul { width:960px; height:815px; }
+	.shop.square ul li { float:left; width:234px; height:380px; padding:0 0 18px; margin:0 8px 10px 0; position: relative; 
+				background:url("../img/item_bg.png") no-repeat left top; background-size:contain; }
+	.shop.square .row_last{ margin-right:0;}	
+	.shop.square .albumArt { padding:3px 0 0 3px; text-align: left; width:230px; margin:0;}
+	.shop.square .albumArt  img{ width:225px; height:225px; 
+								border-radius: 5px; padding-top:1px;}
+
+	/* item shop_list */
+	.shop.list ul { width:960px; height:1445px; }
+	.shop.list ul li { float:left; width:960px;  margin:0 auto; height:180px; position: relative; 
+				background:url("../img/item2_bg.png") no-repeat center center; background-size:cover; }
+	.shop.list .albumArt { float:left; width:145px; margin:0 15px 0  0; padding:15px 20px; text-align: left;}
+	.shop.list .albumArt  img{ width:145px; height:145px; 
+							 border-radius: 5px; }
+	.shop.list .sale { top:10px; left:10px;}
+	.shop.list .item_title { margin-top:25px;}
+	.shop.list .desc { font-size:13px; margin-top:9px;}
+	.shop.list p span { width:60px; font-size:18px;}
+	.shop.list .line-through { height:22px; line-height:22px;}
+	.shop.list .discount { padding:3px 6px; text-align: center;}
+	.shop.list .addToCart { width:200px; height:36px; margin:0; border-radius:5px; position:absolute; right:25px; top:120px;
+		background-color: #1e1e20; color:white; font-size:14px; line-height:36px; text-align:center;}
+	.shop.list .foot_title { width:600px; font-size:23px; margin:30px 15px 0;}
+
+	
+	
+	#pagination.menu_bar { height:40px; line-height:40px;  margin:40px auto 0; }
+	#pagination a:link , #pagination a:visited { color:#2a2a2a; font-weight:bold; font-size:14px;  padding-right:10px;}
+	#pagination a:hover , #pagination a:focus, #pagination a.SelectPage  { color:#cc3333; }
+	#pagination a img {vertical-align: top; padding: 14px 0 0;}
+	

@@ -1,0 +1,77 @@
+#wrapper{ width:100%; overflow-x: hidden; }
+
+/* 공통 클래스 */
+.xWrapper { width:960px; margin:0 auto;}
+.hidden { position:absolute; left:-99999px; top:-99999px; width:1px; height:1px; font-size:0; line-height:0;}
+
+/* 스킵 네비게이션*/
+#skipnav li a { display:block; 	width:100%; height:30px; background-color:#cc6666; 
+				position:absolute; top:-100px; left:0; line-height:30px;	color:#ffffff ;text-align:center; z-index: 1; }
+#skipnav li a:focus	, #skipnav li a:active { top:0; }
+
+
+/* 헤더 영역 */
+header{ background-image:url("../img/background.jpg");width:100%; position:relative; height:130px; box-shadow:0 5px 5px rgba(0, 0, 0, 0.25); }
+header .xWrapper{ height:130px;}
+	h1 { padding-top:30px; width: 470px; height:100px; float:left;}
+	h1 a { display:block; margin:20px 0; width:135px; height:60px;}
+	h1 a img { width:100%;}
+	nav ul#gnb { height:35px; padding-top:75px;}
+	nav ul#gnb li { display:inline-block; margin:0 0 0 23px;}
+	nav ul#gnb li a:link, nav ul#gnb li a:visited  { display:block; width:100%; height:20px; margin-top: 3px; padding-top:6px; 
+		color:#000000; font-size:14px; font-weight:bold; border-top: 3px none; }
+	nav ul#gnb li a:hover, nav ul#gnb li a:focus  { border-top: 3px solid #efc539; margin-top:0; color:#000000; text-decoration: none; }
+	#upperheader{ width:100%; height:30px; position:absolute; left:0; top:0; background-color:#2a2b2c; border-top:3px solid #cc3333;}
+	#upperheader .xWrapper{ height:30px;}
+		.socialIcons{ float:left; width:730px; height:28px;}
+		.socialIcons li{ float:left; width:30px;}
+		.socialIcons li a img{ width:28px; height:28px;}
+		#snb { float:left; position:relative;  width:230px;}
+		#snb li { float:left; width:100px; height:28px; line-height:28px; color:#ffffff;}
+		#snb li a{ color:#ffffff;}
+		#snb li.cart {position:absolute; right:0; top:0; width:100px; height:46px;}
+		#snb li.cart a{ display:block; text-align:left; height:46px; line-height:46px; width: 100%; color:#ffffff; margin:0 auto;
+						border-bottom-left-radius:5px; border-bottom-right-radius:5px; background-color:#cc3333;}
+		#snb li.cart a img{ vertical-align:top; width:30px; margin:5px 2px 0 10px;}
+	
+#main { width:100%; min-height:1135px; padding-bottom:65px; background:url("../img/background.jpg") repeat;}
+	
+
+footer{ width:100%; background-image:url("../img/footerbg.jpg"); background-repeat:repeat; border-top:5px solid #010101; 
+		position: relative;
+}
+	#footTop { min-height:260px;}
+	#footTop > ul { height:250px; width:960px; margin:0 auto;}
+	#footTop > ul >li { width:240px; padding:5px 0; float:left; color:#ffffff; }
+		.fcont .foot_title{ margin:25px 0 0; color:#eaeaea; font-size:16px;}
+		
+		.fcont.f1 p{ margin:25px 0 0;}
+		.fcont.f1 p.socialIcons{ margin:19px 0 0; }
+		.fcont.f1 p.socialIcons a{ height:25px; }
+		
+		.fcont.f2 ul { width:100%; margin:14px 0 0;}
+		.fcont.f2 ul li { width:197px; height:40px; line-height: 40px; border-bottom:1px dotted #ffffff; color:#ffffff; }
+		.fcont.f2 ul li.last { border-bottom: 0 none; }
+		
+		.fcont.f3 ul { margin-top:20px; }
+		.fcont.f3 ul li { height: 80px; vertical-align: top; margin: 5px 0;}
+		.fcont.f3 ul li a img { float:left; width:90px; height:70px; border:5px solid #28292a; margin-right:10px;}
+		.fcont.f3 ul li a strong {display:block; height:30px; line-height:30px;}
+		.fcont.f3 ul li a span { display:block; float: left; width: 110px;font-size: 11px;text-indent: 20px;
+			background: url("../img/comments.png"); background-repeat: no-repeat;background-position: 0 65%;}
+		
+		.fcont.f4 input { width: 214px; height: 36px; opacity: 0.75;  margin-top:24px;  border:1px solid #787979; background: black;
+			color:#aaaaaa; font-style:italic; font-size:12px; text-indent: 18px;}
+		.fcont.f4 #tagCloud { width:100%; height:60px; margin-top:20px;}
+		.fcont.f4 #tagCloud a { display: block; float:left; padding:6px; margin:4px; background-color:#2a2a2a; font-size: 12px;}
+		
+		
+	#footBottom { width:100%; height:34px; background-color:#1b1b1b; border-top:1px solid #000000; font-size:11px; } 
+	#footBottom ul { width:50%; float:left; height:34px; line-height:34px;}
+	#footBottom ul li { float:left; width:60px; }
+	#footBottom ul li a { color:#6e6e6e; text-shadow:0 1px 0 rgba(0, 0, 0, 0.25);}
+	#footBottom #copyright{ float:left; width:50%; height:34px; line-height:34px; color:#6e6e6e; 
+							text-shadow:0 1px 0 rgba(0, 0, 0, 0.25); text-align: right;}
+							
+	#gotop { background: url("../img/top.png") no-repeat left top; width:34px; height:34px;
+			 font-size:0; position: absolute; top:-19px; right:30px;}
