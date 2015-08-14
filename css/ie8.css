@@ -13,4 +13,4 @@ p select { border-width:1px; border-style:solid; border-color: #eaeaea;
 			border-radius: 5px; behavior: url(pie/PIE.htc); 
 			-ms-border-radius: 5px;}
 .shop.square .albumArt { padding:3px 0 0 3px; text-align:center; width:230px; height:230px; line-height: 230px; margin:0;}
-.shop.square .albumArt  img{ width:225px; height:225px;  behavior: url(pie/PIE.htc);  border-radius: 5px; padding-top:1px;}
+.shop.square .albumArt  img{ width:225px; height:225px;  behavior: url(pie/PIE.htc);  border-radius: 5px; margin-top:3px;}
