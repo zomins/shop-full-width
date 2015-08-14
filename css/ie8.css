@@ -1,0 +1,16 @@
+#snb li.cart a{ border-bottom-left-radius:5px; border-bottom-right-radius:5px; behavior: url(pie/PIE.htc); }
+
+p select { border-width:1px; border-style:solid; border-color: #eaeaea; 
+			padding-left:0; margin-left:15px; background-color:white; 
+			background-image:url("../img/arrow.png"); background-repeat:no-repeat; background-position:95% 50%;
+			 -webkit-appearance: none;
+			 -moz-appearance: none;
+			 appearance:none;}
+.shop .sale { border-radius: 25px; behavior: url(pie/PIE.htc); 
+			  -ms-border-radius: 25px;
+			  filter:alpha(opacity=80); }
+.shop.square .addtocart  {
+			border-radius: 5px; behavior: url(pie/PIE.htc); 
+			-ms-border-radius: 5px;}
+.shop.square .albumArt { padding:3px 0 0 3px; text-align:center; width:230px; height:230px; line-height: 230px; margin:0;}
+.shop.square .albumArt  img{ width:225px; height:225px;  behavior: url(pie/PIE.htc);  border-radius: 5px; padding-top:1px;}

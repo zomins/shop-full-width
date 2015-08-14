@@ -40,15 +40,14 @@
 	.shop p span { display: block; float:left; width:45px; margin-top:5px; }
 	.shop .sale { position:absolute; left:0; top:0; width:50px; height:50px;
 				  line-height:50px; color:white; text-align:center; font-size:12px; font-weight: 500;
-				  background-color:#cc3333; opacity: 0.8; 
-				  behavior: url("pie/PIE.htc"); border-radius:25px; }
+				  background-color:#cc3333; opacity: 0.8; border-radius:25px;}
 	.shop .star_mark { margin:9px 15px 0;}
 	.shop .price { font-size:18px; font-weight: bold; margin-right:52px;}
 	.shop .line-through { text-decoration: line-through;}
 	.shop .discount { margin-left:8px; width:38px; padding:0 3px;background-color:#cc3333; color:white; font-size:15px; }
 	.shop.square .desc { font-size:13px; margin-top:9px;}
 	.shop.square .addToCart { width:80px; height:26px; margin:0 0 0 20px; border-radius:5px; vertical-align: middle;
-		background-color: #1e1e20; color:white; font-size:10px; line-height:26px; text-align:center;}
+		background-color: #1e1e20; color:white; font-size:10.14px; line-height:26px; text-align:center;}
 
 
 	/* item shop_square */
@@ -57,16 +56,14 @@
 				background:url("../img/item_bg.png") no-repeat left top; background-size:contain; }
 	.shop.square .row_last{ margin-right:0;}	
 	.shop.square .albumArt { padding:3px 0 0 3px; text-align: left; width:230px; margin:0;}
-	.shop.square .albumArt  img{ width:225px; height:225px; 
-								border-radius: 5px; padding-top:1px;}
+	.shop.square .albumArt  img{ width:225px; height:225px; border-radius: 5px; padding-top:1px;}
 
 	/* item shop_list */
 	.shop.list ul { width:960px; height:1445px; }
 	.shop.list ul li { float:left; width:960px;  margin:0 auto; height:180px; position: relative; 
 				background:url("../img/item2_bg.png") no-repeat center center; background-size:cover; }
 	.shop.list .albumArt { float:left; width:145px; margin:0 15px 0  0; padding:15px 20px; text-align: left;}
-	.shop.list .albumArt  img{ width:145px; height:145px; 
-							 border-radius: 5px; }
+	.shop.list .albumArt  img{ width:145px; height:145px;  border-radius: 5px; }
 	.shop.list .sale { top:10px; left:10px;}
 	.shop.list .item_title { margin-top:25px;}
 	.shop.list .desc { font-size:13px; margin-top:9px;}
